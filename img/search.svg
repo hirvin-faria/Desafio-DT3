@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.561" height="28.561" viewBox="0 0 28.561 28.561">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="28.561" height="28.561" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Símbolo_98_9" data-name="Símbolo 98 – 9" clip-path="url(#clip-path)">
+    <g id="ic_search_" data-name="ic_search " transform="translate(0 0)">
+      <rect id="square" width="28.561" height="28.561" transform="translate(0 0)" fill="none"/>
+      <path id="path" d="M50.158,64.567H49.149l-.378-.378a7.89,7.89,0,0,0,2.017-5.295,8.194,8.194,0,1,0-8.194,8.194,7.89,7.89,0,0,0,5.295-2.017l.378.378v1.008l6.3,6.3,1.891-1.891Zm-7.564,0a5.673,5.673,0,1,1,5.673-5.673A5.649,5.649,0,0,1,42.594,64.567Z" transform="translate(-31.4 -47.7)" fill="#363636"/>
+    </g>
+  </g>
+</svg>

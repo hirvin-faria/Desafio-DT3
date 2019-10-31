@@ -1,0 +1,62 @@
+.slider-container {
+    margin:  0px auto;
+}
+.slide-inativo{
+    display: none;
+}
+
+.slide-ativo {
+    display: inline-block;
+}
+
+.conteúdo {
+    display: inline-block;
+}
+
+#anterior, #proximo {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px;
+}
+
+/* #anterior {
+    float: left;
+    margin-top: 25%;
+} */
+
+.categoria-produtos {
+    font-size: 1.2em;
+    
+    line-height: 1.2;
+    color: #363636;
+}
+
+.titulo {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #131313;
+    margin: 0px;
+}
+
+.modelo {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #FF0808;
+    margin: 0px;
+}
+
+.descricao {
+    color: #363636;
+    max-width: 500px;
+    border-left: 1px solid #363636;
+    padding: 30px 0px 20px 20px;
+}
