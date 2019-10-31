@@ -88,10 +88,10 @@
         <section id="categoria-produtos" class="container">
             <h2>Categoria de Produtos</h2>
             <div id="slider">
-                <a id="anterior" onclick="moverSlider(-1)"><img src="img/left-arrow.svg" alt=""></a>
-                <a id="proximo" onclick="moverSlider(1)"><img src="img/right-arrow.svg" alt=""></a>
+                <a id="ant-categoria" class="anterior" onclick="moverSliderCategoria(-1)"><img src="img/left-arrow.svg" alt=""></a>
+                <a id="prox-categoria" class="proximo" onclick="moverSliderCategoria(1)"><img src="img/right-arrow.svg" alt=""></a>
                 <!--Slide um-->
-                <div class="row slide-item">
+                <div class="row slide-item-cat">
                     <div class="col-12 col-sm-6">
                         <h1 class="text-color-black-dt3">Categoria</h1>
                         <h1 class="text-color-red-dt3">Gaming Series</h1>
@@ -103,11 +103,11 @@
                             elit mauris dignissim urna, ac volutpat.
                         </p>
                     </div>
-                    <img class="img-fluid slider-img" src="img/series_0002_Camada-1.png" alt="Linha de Cadeiras Gaming DT3">
+                    <img class="categoria-box img-fluid slider-img" src="img/series_0002_Camada-1.png" alt="Linha de Cadeiras Gaming DT3">
                 </div>
 
                 <!--Slide dois-->
-                <div class="row slide-item slide-inativo">
+                <div class="row slide-item-cat slide-inativo">
                     <div class="col-12 col-sm-6">
                         <h1 class="text-color-black-dt3">Categoria</h1>
                         <h1 class="text-color-red-dt3">Elite Series</h1>
@@ -119,11 +119,11 @@
                             ac volutpat.
                         </p>
                     </div>
-                    <img class="img-fluid slider-img" src="img/series_0001_Rhino-(1).png" alt="Linha de Cadeiras Elite DT3">
+                    <img class="categoria-box img-fluid slider-img" src="img/series_0001_Rhino-(1).png" alt="Linha de Cadeiras Elite DT3">
                 </div>
 
                 <!--Slide Tres-->
-                <div class="row slide-item slide-inativo">
+                <div class="row slide-item-cat slide-inativo">
                     <div class="col-12 col-sm-6">
                         <h1 class="text-color-black-dt3">Categoria</h1>
                         <h1 class="text-color-red-dt3">Racing Series</h1>
@@ -135,7 +135,7 @@
                             ac volutpat.
                         </p>
                     </div>
-                    <img class="img-fluid slider-img" src="img/series_0000_Agrupar-1-copiar.png" alt="Linha de Cadeiras Racing DT3">
+                    <img class="categoria-box img-fluid slider-img" src="img/series_0000_Agrupar-1-copiar.png" alt="Linha de Cadeiras Racing DT3">
                 </div>
             </div>
         </section>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="video-area">
                     <a data-toggle="collapse" href="#collapseExample"><img src="img/00000434.png" alt="Fotografia de uma garota, com link para video">
-                    <div class="play clearfix"><i class="fas fa-play"></i></div>
+                    <div class="play"><i class="fas fa-play"></i></div>
                     </a>
                 </div>
                 <div class="video-area">
@@ -171,16 +171,37 @@
                     </video>
                 </div>
             </div>
-            
-            <!-- <div class="video-display">
-                <a class="" href=""><img class="cover" src="img/00000434.png" alt="..."></a>
-            </div> -->
         </section>
 
         <section class="container">
             <div class="text-center">
-                <img src="img/Whell Slider/GT red (1).png" alt="">
-                <h2 class="ws-modelo">GT</h2>
+                <a id="ant-cadeiras" class="anterior" onclick="moverSliderCadeiras(-1)"><img src="img/left-arrow.svg" alt=""></a>
+                <a id="prox-cadeiras" class="proximo" onclick="moverSliderCadeiras(1)"><img src="img/right-arrow.svg" alt=""></a>
+                <div class="slide-item-cad">
+                    <img class="cadeira-box" src="img/Wheel Slider/GT red (1).png" alt="Cadeira Gamer GT">
+                    <h2 class="ws-modelo">GT</h2>
+                </div>
+                <div class="slide-item-cad slide-inativo">
+                    <img class="cadeira-box" src="img/Wheel Slider/Jaguar.png" alt="Cadeira Gamer Jaguar">
+                    <h2 class="ws-modelo">Jaguar</h2>
+                </div>
+                <div class="slide-item-cad slide-inativo">
+                        <img class="cadeira-box" src="img/Wheel Slider/Mizano Fabric Red (1).png" alt="Cadeira Games Mizano Fabric Verdemlha">
+                        <h2 class="ws-modelo">Mizano Fabric</h2>
+                    </div>
+                    <div class="slide-item-cad slide-inativo">
+                            <img class="cadeira-box" src="img/Wheel Slider/Prime Evo Red (1) copiar.png" alt="Cadeira Gamer Prime Evo Verdemlha">
+                            <h2 class="ws-modelo">Prime Evo</h2>
+                        </div>
+                        <div class="slide-item-cad slide-inativo">
+                                <img class="cadeira-box" src="img/Wheel Slider/Rhino-(1).png" alt="Cadeira Gamer Rhino Verdemlha">
+                                <h2 class="ws-modelo">Rhino</h2>
+                            </div>
+
+
+
+
+
                 <h1 class="ws-titulo">Cadeira Gamer</h1>
                 <a class="botao-Saiba-Mais" href="#">Saiba mais</a>
             </div>

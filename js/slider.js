@@ -1,22 +1,35 @@
-var slider = document.querySelectorAll(".slide-item");
-var slideIndex = 1;
+var sliderCat = document.querySelectorAll(".slide-item-cat");
+var slideIndexCat = 1;
 
-function moverSlider(n){
+var sliderCad = document.querySelectorAll(".slide-item-cad");
+var slideIndexCad = 1;
+
+function moverSliderCategoria(n){
     console.log(n);
     console.log(slider);
-    showSlides(slideIndex += n); 1/-1
+    showSlidesCategoria(slideIndexCat += n); 1/-1
 }
 
-function showSlides(n) {
+function showSlidesCategoria(n) {
     var i;
-    if (n > slider.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slider.length}
-    for (i = 0; i < slider.length; i++) {
-        // slider[i].style.display = "none";
-        slider[i].classList.add("slide-inativo");  
+    if (n > sliderCat.length) {slideIndexCat = 1}    
+    if (n < 1) {slideIndexCat = sliderCat.length}
+    for (i = 0; i < sliderCat.length; i++) {
+        sliderCat[i].classList.add("slide-inativo");  
     }
-    // avaliacaoTd.classList.add
-    slider[slideIndex-1].classList.remove("slide-inativo");  
+    sliderCat[slideIndexCat-1].classList.remove("slide-inativo");  
+}
 
-    // slider[slideIndex-1].style.display = "block";  
+function moverSliderCadeiras(n){
+    showSlidesCadeiras(slideIndexCad += n); 1/-1
+}
+
+function showSlidesCadeiras(n) {
+    var i;
+    if (n > sliderCad.length) {slideIndexCad = 1}    
+    if (n < 1) {slideIndexCad = sliderCad.length}
+    for (i = 0; i < sliderCad.length; i++) {
+        sliderCad[i].classList.add("slide-inativo");  
+    }
+    sliderCad[slideIndexCad-1].classList.remove("slide-inativo");  
 }
