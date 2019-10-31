@@ -1,3 +1,4 @@
+/*Classes do Banner Principal Top*/
 .banner-principal-top h1 {
     font-size: 4em;
     text-transform: uppercase;
@@ -16,7 +17,7 @@
     color: #FF0808;
 }
 
-
+/*Classes do Player de Video */
 .video-area {
     float: left;
     margin: 0px;
@@ -42,32 +43,10 @@
     color: #363636;
 }
 
-
-
-/* 
-.video-display {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 20%;
-}
-
-.video-display img {
-    width: 20%;
-    height: 90%;
-    border: 1px solid #000;
-}
-
-*/
-
 .video {
     display: block;
     width: 100%;
     margin: 0px auto;
     padding: 0px 0px;
     background-color: #C7C7C7 ;
-}
-
-.cover {
-    object-fit: cover;
 }

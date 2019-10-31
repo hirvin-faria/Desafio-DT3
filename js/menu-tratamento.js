@@ -17,3 +17,7 @@ if(window.screen.width <= 991){
     logoDttSm.classList.add("logo-inativo");
     logoDttLg.classList.remove("logo-inativo");    
 }
+
+//Bug na responsividade caso a tela seja dimensionada após seu carregamento.
+//A tela prescisa ser calculada novamente para a correção do menu.
+//Para recarregar a página document.location.reload(false); - gera loop.

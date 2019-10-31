@@ -7,6 +7,7 @@
     /* color: #363636; */
 }
 
+/*Definições de Classes do Cabecalho*/
 .DT-nav {
     padding-top: 0px;
 }
@@ -57,7 +58,7 @@ li a:hover {
     display: none;
 }
 
-/*Definições do Rodape*/
+/*Definições de Classes do Rodape*/
 .rodape {
     background-color: #131313;
     color: #fff;
@@ -103,6 +104,11 @@ li a:hover {
 
 .rodape i:hover{
     color: #fff;
+}
+
+#font-black{
+    color: #131313;
+    cursor: default;
 }
 
 /*Definições de Botao*/
@@ -163,7 +169,6 @@ li a:hover {
     width: 160px;
     margin: 15px 0 15px 0;
 }
-
 
 .clearfix{
     clear: both;
